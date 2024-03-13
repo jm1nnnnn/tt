@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노랑풍선 [여행은 가볍게]</title>
+    <!-- <link rel="stylesheet" href="./css/grid.css"> -->
+    <link rel="favicon" href="./img/Rjm4aCNx.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./css/slick.css" type="text/css">
+    <link rel="stylesheet" href="./css/slick-theme.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <style>
+        .t_hidden {
+            width: 1px;
+            height: 1px;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://kit.fontawesome.com/47d1dd0fad.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js" defer></script>
+
+
+</head>
+
+<body>
+    <!-- wrap -->
+    <!-- header -->
+    <header>
+        <div class="header_i">
+            <h1>
+                <a href="#">
+                    <img src="./img/h_logo.svg" alt="headerlogo">
+                </a>
+                <span class="t_hidden">노랑풍선</span>
+            </h1>
+            <nav>
+                <ul class="main_menu">
+                    <li>
+                        <a href="#">국내여행</a>
+                        <span></span>
+                        <ul class="sub_menu">
+                            <li><a href="#">서울특별시</a></li>
+                            <li><a href="#">경기도</a></li>
+                            <li><a href="#">강원도</a></li>
+                            <li><a href="#">충청도</a></li>
+                            <li><a href="#">경상도</a></li>
+                            <li><a href="#">전라도</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">해외여행</a>
+                        <span></span>
+                        <ul class="sub_menu">
+                            <li><a href="#">유럽</a></li>
+                            <li><a href="#">동남아</a></li>
+                            <li><a href="#">일본</a></li>
+                            <li><a href="#">호주/뉴질랜드</a></li>
+                            <li><a href="#">미국/캐나다/하와이</a></li>
+                            <li><a href="#">중남미/아프리카</a></li>
+                            <li><a href="#">대만/홍콩/마카오</a></li>
+                            <li><a href="#">몽골/말레이시아</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">패키지여행</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="#">투어/티켓</a>
+                        <span></span>
+                        <ul class="sub_menu">
+                            <li><a href="#">명소&공연</a></li>
+                            <li><a href="#">이색체험</a></li>
+                            <li><a href="#">Day투어</a></li>
+                            <li><a href="#">여행서비스</a></li>
+                            <li><a href="#">Wi-Fi&유심</a></li>
+                            <li><a href="#">모두보기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                        <span></span>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- 모바일 메뉴 -->
+            <div class="mobile_menuba">
+                <a href="#" class="menuba">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <!-- //모바일 메뉴 -->
+        </div>
+
+    </header>
+    <!-- //header -->
+
+
+
+    <!-- 모바일 메뉴 클릭 시 나오는 메뉴 -->
+    <div class="mobile_menu">
+        <div class="m_login">
+            <h2 class="mobile_logo">
+                <img src="./img/h_logo.svg" alt="logo">
+            </h2>
+            <div class="mobile_profile">
+                <div class="between">
+                    <div class="photo"></div>
+                    <div class="info">
+                        <button type="button" class="mobile_btn">
+                            <strong>로그인</strong>하세요
+                        </button>
+                        <p class="info_title">
+                            로그인을 하시면<br>더 많은 서비스를 이용 하실 수 있습니다.
+                        </p>
+                    </div>
+                </div>
+                <button type="button" class="close">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                </button>
+            </div>
+        </div>
+
+        <form action="#">
+            <input type="text">
+            <span></span>
+        </form>
+        <div class="m_titlemenu">
+            <ul>
+                <li><a href="#">해외여행</a></li>
+                <li><a href="#">국내여행</a></li>
+                <li><a href="#">패키지여행</a></li>
+                <li><a href="#">투어&티켓</a></li>
+                <li><a href="#">항공</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </div>
+
+        <div id="mobile_icon">
+            <div class="ievent">
+                <a href="#">
+                    <img src="./img/ico_event01.png" alt="i1">
+                </a>
+                <p>기획전</p>
+            </div>
+            <div class="ievent">
+                <a href="#">
+                    <img src="./img/ico_event02.png" alt="i2">
+                </a>
+                <p>테마여행</p>
+            </div>
+            <div class="ievent">
+                <a href="#">
+                    <img src="./img/icn_week_sale.png" alt="i3">
+                </a>
+                <p>이벤트/할인</p>
+            </div>
+        </div>
+    </div>
+    <!-- //모바일 메뉴 클릭 시 나오는 메뉴 -->
+
+
+    <div id="head_main">
+        <div id="carouselExampleSlidesOnly" class="carousel slide slide_wrap" data-ride="carousel">
+            <div class="carousel-inner a_slide">
+                <div class="carousel-item active mainslide">
+                    <img src="./img/mainbanner01.jpg" class="d-block w-100 " alt="m1">
+                </div>
+                <div class="carousel-item mainslide">
+                    <img src="./img/mainbanner02.jpg" class="d-block w-100" alt="m2">
+                </div>
+                <div class="carousel-item mainslide">
+                    <img src="./img/mainbanner03.jpg" class="d-block w-100" alt="m3">
+                </div>
+            </div>
+        </div>
+
+        <div class="headertitle">
+            <div class="container">
+
+
+                <h2 class="title">
+                    당신이 꿈꾸는 <strong>여행 목적지</strong>는?
+                </h2>
+                <form action="#" method="post">
+
+                    <div class="search">
+                        <input type="text" id="firstsearch" placeholder="가고 싶은 여행지를 검색하세요">
+                    </div>
+
+                    <div class="point">
+                        <input type="text" class="goto" placeholder="출발지">
+                        <figure class="arrow">
+                            <img src="./img/Arrow1.svg" alt="arrow">
+                        </figure>
+                        <input type="text" class="getto" placeholder="도착지">
+                    </div>
+
+                    <div class="search">
+                        <div class="date">
+                            <input type="date" class="year">
+                            <span>연도-월-일</span>
+                        </div>
+                        <button type="button" class="btn">검색하기</button>
+                    </div>
+
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 웹 접근성 오류인 지 아닌 지 검색할 시 사용 -->
+
+   
+
+
+    <!-- main -->
+    <main>
+
+        <h2 class="t_hidden">section2</h2>
+        <section class="section0">
+    
+            <div class="m_title">
+                <h2 class="slogan">여행은 가볍게</h2>
+                <p>일정관리 및 숙소찾기가 어려우시다면?</p>
+                <!-- <a href="#" class="title_btn">자세히보기→</a> -->
+            </div>
+    
+            <div class=" slide_box">
+                <div class="s_wrap">
+                    <div class="slide_contents">
+    
+                        <div class="img_title">
+                            <div class=" m_img">
+                                <img src="./img/section01_img1.jpg" alt="01">
+                            </div>
+                            <div class=" m_box">
+                                <div class="m_text">
+                                    <h3>[스위스 일주 9일] 알프스 따라 스위스 일주</h3>
+                                    <p>사계절 만년선을 즐길 수 있는 자연과 액티비티의 나라<br>
+                                        푸르른 초원과 눈 덮인 설경 사이사이 위치한 산악마을을 둘러보며 유럽의 꽃, 스위스로 떠나보세요!
+                                    </p>
+                                </div>
+                                <div class="m_price">
+                                    <p>3,850,000원 ~</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                        <div class="img_title">
+                            <div class=" m_img">
+                                <img src="./img/section01_img2.jpg" alt="01">
+                            </div>
+                            <div class=" m_box">
+                                <div class="m_text">
+                                    <h3>[독도 4일] 울릉도 + 독도 패키지</h3>
+                                    <p>천연의 자연을 품고 있는 섬 울릉도와 민족 자긍심의 상징 독도<br>
+                                        신비와 자연의 아름다움이 살아 숨쉬는 동해 유일의 도서군으로서 연평균 기온이 12.2도로 연중 해양성 기후를 가지고 있어 관광하기 좋은 울릉도로
+                                        떠나보세요!
+                                    </p>
+                                </div>
+                                <div class="m_price">
+                                    <p>340,000원 ~</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                        <div class="img_title">
+                            <div class=" m_img ">
+                                <img src="./img/section01_img3.jpg" alt="01">
+                            </div>
+                            <div class=" m_box">
+                                <div class="m_text">
+                                    <h3>[오전출발] 사이판 월드 리조트 + 골든카드 4일</h3>
+                                    <p>서태평양에 있는 북마리아나 제도의 가장 큰 섬<br>
+                                        그루토, 버드 섬, 산후인 비치 등 인기 명소가 다양해 꼭 한번은 방문 해야 할 여행지 지치고 힘든 삶에 힐링 하러 떠나는 호캉스
+                                    </p>
+                                </div>
+                                <div class="m_price">
+                                    <p>1,319,000원 ~</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                        <div class="img_title">
+                            <div class="m_img">
+                                <img src="./img/section01_img4.jpg" alt="01">
+                            </div>
+                            <div class=" m_box">
+                                <div class="m_text">
+                                    <h3>[호주 멜버른 10일] 아시아나항공 타고 직행으로 편하게</h3>
+                                    <p>아시아나 항공 승객을 위한 혜택도 덤<br>
+                                        아름다운 해안도로로 알려진 그레이트 오션로드, 하루에 300만잔의 커피가 소비된다는 커피도시 디그레이브스 스트리트 등 이색적인 볼거리가 많은 곳
+                                        호주로
+                                        떠나보세요~
+                                    </p>
+                                </div>
+                                <div class="m_price">
+                                    <p>1,890,000원 ~</p>
+                                </div>
+                                <div class="more">
+                                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+
+        <!-- section01 -->
+        <section class="section1">
+
+            <!-- 국내여행 -->
+            <h2 class="section1_title headtitle">
+                끝 없는 발걸음. <br class="web_hidden"> 국내여행의 신나는 모험
+            </h2>
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  mobile_center">
+                        <div class="title">
+                            <a href="#" class="jeju">
+                                <figure>
+                                    <img src="./img/section02_jeju.png" alt="jeju">
+                                </figure>
+                                <h4>제주도</h4>
+                                <p>#서귀포 #한라산 #돌하르방</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mobile_center">
+
+                        <div class="title">
+                            <a href="#" class="seoul">
+                                <figure>
+                                    <img src="./img/section02_seoul.png" alt="seoul">
+                                </figure>
+                                <h4>서울특별시</h4>
+                                <p>#서울용산 #남산타워 #서울야경명소</p>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  mobile_center">
+
+                        <div class="title">
+                            <a href="#" class="yeosu">
+                                <figure>
+                                    <img src="./img/section02_yeosu.png" alt="yeosu">
+                                </figure>
+                                <h4>전라남도 여수시</h4>
+                                <p> #여수해상케이블카 #돌산대교</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  mobile_center">
+
+                        <div class="title">
+                            <a href="#" class="yeosu">
+                                <figure>
+                                    <img src="./img/busan.jpg" alt="busan">
+                                </figure>
+                                <h4>부산광역시</h4>
+                                <p>#광안리 #광안대교 #부산해운대
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class='section_btn'>전체보기</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- //국내여행 -->
+        </section>
+        <!-- //section01 -->
+
+        <!-- section02 -->
+
+        <section class="section1">
+
+            <!-- 해외여행 -->
+            <h2 class="section1_title headtitle">
+                역사, 자연 등 풍부한 경험을 제공해주는<br class="web_hidden"> 해외여행의 매력
+            </h2>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mobile_center">
+                        <div class="title">
+                            <a href="#" class="newyork" rel="img">
+                                <figure>
+                                    <img src="./img/section02_usa.png" alt="usa">
+                                </figure>
+
+                                <h4>미국 뉴욕</h4>
+                                <p> #센트럴파크 #베스트관광지</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mobile_center">
+
+                        <div class="title">
+                            <a href="#" class="england" rel="img">
+                                <figure>
+                                    <img src="./img/section02_england.png" alt="england">
+                                </figure>
+
+                                <h4>영국 런던</h4>
+                                <p>#영국 #타워브릿지 #런던타워</p>
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 mobile_center">
+
+                        <div class="title">
+                            <a href="#" class="paris" rel="img">
+                                <figure>
+                                    <img src="./img/section02_paris.png" alt="paris">
+                                </figure>
+                                <h4>프랑스 파리</h4>
+                                <p>#파리아경 #루브르박물관 #베르사유궁전</p>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12  mobile_center">
+                        <div class="title">
+                            <a href="#" class="newyork" rel="img">
+                                <figure>
+                                    <img src="./img/Kota.jpg" alt="usa">
+                                </figure>
+
+                                <h4>말레이시아 코타키나발루</h4>
+                                <p>#석양맛집 #스노쿨링 #일몰인생샷</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <a href="#" class=section_btn>전체보기</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- //해외여행 -->
+        </section>
+        <!-- //section02 -->
+
+    </main>
+    <!-- //main -->
+
+    <!-- banner -->
+    <div id="banner">
+        <div class="b_allslide">
+            <div class="b_slide b1">
+                <div class="b_text">
+                    모두를 놀라게하는 여행의 순간!<br>
+                    꿈꾸던 여행지를 <br class="web_hidden"> <span>노랑풍선</span>과 함께 떠나보세요!
+                </div>
+            </div>
+            <div class="b_slide b2">
+                <div class="b_text">
+                    선착순 <strong>100명</strong>한정! <strong>5만원</strong>즉시할인<br>
+                    <span>동남아</span><br>미리 준비하면 돈남아!
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
+
+    <!-- section03 review -->
+    <section class="section3">
+        <h2 class="section3_title headtitle">노랑풍선 고객님의 솔직한 여행리뷰</h2>
+
+        <div class="container">
+
+            <div class="review_img">
+                <figure>
+                    <img src="./img/best.png" alt="best review">
+                </figure>
+            </div>
+
+
+            <div class="review_text">
+                <h3 class="best headtitle">
+                    아이디 고객님의 <span>BEST</span> 여행후기
+                </h3>
+                <div class="review_title">
+                    <strong>행복했던 노랑풍선 아프리카 5박 8일 패키지 여행후기 <br>(잠비아, 짐바브웨, 보츠와나, 남아프리카 공화국):완벽한 신혼여행</strong>
+                    <p>
+                        아프리카를 신혼 여행지로 택한 이유는 사실 별게 없었다. 남들이 많이 가는 곳은 그냥 피하고 싶었고, 광활한 자연이 있는 비교적 미지의 세계인 곳이 끌렸다.
+                        남편의 주장처럼 피곤한 결혼 준비가 끝났으나, 휴양지인 몰디브를 가는 게 맞는 건가 나도 좀 헷갈렸다 하지만 노랑풍선 아프리카 여행 패키지를 발견하고 정말
+                        괜찮았다!
+                    </p>
+                </div>
+                <div class="btn">
+                    <a href="#" class="review_btn">더보기</a>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </section>
+    <!-- //section03 review -->
+
+    <!-- section04 -->
+    <section class="section4">
+        <h3 class="month_title headtitle">이 달의 여행지 Pick</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-lg-block d-md-none d-none">
+                    <div class="month_btn">
+                        <button type="button" class="box">Jan</button>
+                        <button type="button" class="box">Feb</button>
+                        <button type="button" class="box">Mar</button>
+                        <button type="button" class="box">Apr</button>
+                        <button type="button" class="box">May</button>
+                        <button type="button" class="box">Jun</button>
+                        <button type="button" class="box">Jul</button>
+                        <button type="button" class="box">Aug</button>
+                        <button type="button" class="box">Sep</button>
+                        <button type="button" class="box">Oct</button>
+                        <button type="button" class="box">Nov</button>
+                        <button type="button" class="box">Dec</button>
+
+                    </div>
+
+                    <!-- <div class="col-1">
+                            <button type="button" class="box">1월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">2월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">3월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">4월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">5월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">6월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">7월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">8월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">9월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">10월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">11월</button>
+                        </div>
+                        <div class="col-1">
+                            <button type="button" class="box">12월</button>
+                        </div> -->
+
+                </div>
+
+                <!-- 모바일버튼 -->
+
+                <div class="col-12 d-lg-none m_month">
+                    <!-- <ul class="m_btn">
+                        <li>
+                            <a href="#" class="mob_b">Month ▼</a>
+                            <ul class="sub_btn">
+                                <li class="box"><a href="#">January</a></li>
+                                <li class="box"><a href="#">February</a></li>
+                                <li class="box"><a href="#">March</a></li>
+                                <li class="box"><a href="#">April</a></li>
+                                <li class="box"><a href="#">May </a></li>
+                                <li class="box"><a href="#">June</a></li>
+                                <li class="box"><a href="#">July</a></li>
+                                <li class="box"><a href="#">August</a></li>
+                                <li class="box"><a href="#">September</a></li>
+                                <li class="box"><a href="#">October </a></li>
+                                <li class="box"><a href="#">November</a></li>
+                                <li class="box"><a href="#">December</a></li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                    <ul class="m_btn">
+                        <li>
+                            <button type="button" class="mob_b">Month ▼</button>
+                            <ul class="sub_btn">
+                                <li class="box"><button type="button">January</button></li>
+                                <li class="box"><button type="button">February</button></li>
+                                <li class="box"><button type="button">March</button></li>
+                                <li class="box"><button type="button">April</button></li>
+                                <li class="box"><button type="button">May </button></li>
+                                <li class="box"><button type="button">June</button></li>
+                                <li class="box"><button type="button">July</button></li>
+                                <li class="box"><button type="button">August</button></li>
+                                <li class="box"><button type="button">September</button></li>
+                                <li class="box"><button type="button">October </button></li>
+                                <li class="box"><button type="button">November</button></li>
+                                <li class="box"><button type="button">December</button></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- //모바일버튼 -->
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="month">
+                        <figure class="month_img mi1">
+                            <img src="./img/section05_1month.jpg" alt="PalmSprings">
+                        </figure>
+                        <figure class="month_img mi2">
+                            <img src="./img/section05_2month.jpg" alt="Italy">
+                        </figure>
+                        <figure class="month_img mi3">
+                            <img src="./img/section05_3spain.jpg" alt="spain">
+                        </figure>
+                        <figure class="month_img mi4">
+                            <img src="./img/section05_4Netherlands.jpg" alt="lands">
+                        </figure>
+                        <figure class="month_img mi5">
+                            <img src="./img/section05_5month.jpg" alt="jeju">
+                        </figure>
+                        <figure class="month_img mi6">
+                            <img src="./img/section05_6month.jpg" alt="namisum">
+                        </figure>
+                        <figure class="month_img mi7">
+                            <img src="./img/section5_7brizil.jpg" alt="brizil">
+                        </figure>
+                        <figure class="month_img mi8">
+                            <img src="./img/section05_8greece.jpg" alt="greece">
+                        </figure>
+                        <figure class="month_img mi9">
+                            <img src="./img/section05_9Gyeongju.jpg" alt="yeongju">
+                        </figure>
+                        <figure class="month_img mi10">
+                            <img src="./img/section05_10month.jpg" alt="jeju">
+                        </figure>
+                        <figure class="month_img mi11">
+                            <img src="./img/section05_11Vietnam.jpg" alt="vitenam">
+                        </figure>
+                        <figure class="month_img mi12">
+                            <img src="./img/section05_12Thailand.jpg" alt="thailand">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12">
+                    <div class="month_head">
+                        <div class="month_i mi1">
+                            <h2>1월 추천 여행지</h2>
+                            <h4>샌프란시스코 , 캘리포니아</h4>
+                            <p>가볼 곳이 무궁무진한 캘리포니아 , 샌프란시스코가서 꼭 인생샷을 건져오는 신이 조각한듯한 궁전과 호수 , 샌프란시스코 최고의 명소 </p>
+                        </div>
+                        <div class="month_i mi2">
+                            <h2>2월 추천 여행지</h2>
+                            <h4>베네치아 , 이탈리아</h4>
+                            <p> 세계 10대 축제 중 하나로 불리는 '베네치아가면축제'도 열리고 이탈리아가면 곤돌라는 무조건 타러가야하는 곳 </p>
+                        </div>
+                        <div class="month_i mi3">
+                            <h2>3월 추천 여행지</h2>
+                            <h4>세비야 , 스페인</h4>
+                            <p>할 수 있는 즐길거리의 기본은 아름다운날씨 , 무데하르라고 알려진 무슬림과 유럽 건축 스타일의 조합은 남부 스페인의 독특한 양식으로 흥미로운 여행이 될 수
+                                있어요~</p>
+                        </div>
+                        <div class="month_i mi4">
+                            <h2>4월 추천 여행지</h2>
+                            <h4>쾨켄호프 , 네덜란드</h4>
+                            <p> 4월부터 5월 초까지는 네덜란드에서 만개한 튤립을 즐길 수 있습니다. 네덜란드에 노란색, 하얀색, 빨간색, 분홍색 등 알록달록 물든 꽃의 바다로 펼쳐지는 이
+                                곳 이 시즌이면 다양한 축제와 투어도 함께~ </p>
+                        </div>
+                        <div class="month_i mi5">
+                            <h2>5월 추천 여행지</h2>
+                            <h4>강릉(정동진) , 강원도</h4>
+                            <p>5월에는 가정의 달 ~ 가족여행으로 정동진가서 해돋이보고 맛있는 거먹고 ~! </p>
+                        </div>
+                        <div class="month_i mi6">
+                            <h2>6월 추천 여행지</h2>
+                            <h4>발리 , 인도네시아</h4>
+                            <p>숨막히게 아름다운 폭포부터 남쪽 냥냥의 백사장에 이르기까지 발리는 하나의 섬이지만 볼 거리가 정말 많다 더 많은 먹거리와 즐기러 떠나보자</p>
+                        </div>
+                        <div class="month_i mi7">
+                            <h2>7월 추천 여행지</h2>
+                            <h4>리우데자네이루 , 브라질</h4>
+                            <p> 코르코바도 산에서 도시의 탁 트인 전망을 감상하고 티후카 숲을 통과해 구세주 그리스도 정상에 도달하는 여행 축구와 삼바에 대한 브라질의 열정에 대해
+                                자세히알아보자! </p>
+                        </div>
+                        <div class="month_i mi8">
+                            <h2>8월 추천 여행지</h2>
+                            <h4>산토리니 , 그리스</h4>
+                            <p>죽기 전에 꼭 가보고 싶은 여행지 Top3 일 정도로 꼭 가보고 싶은 여행지 해 질 녘 미술가의 그림 같은 풍경이 펼쳐지는 아름다운 섬 산토리니로 놀러가자
+                            </p>
+                        </div>
+                        <div class="month_i mi9">
+                            <h2>9월 추천 여행지</h2>
+                            <h4>경주(안압지), 경상북도</h4>
+                            <p>경주 야경 제 1의 명소라는 타이틀이라고 해도 아깝지 않은 동궁과월지 날도 선선한데 야경까지 예쁜 !! 바쁜 현대인들에 힐링하게 해주는 경주로 가보자고!
+                            </p>
+                        </div>
+                        <div class="month_i mi10">
+                            <h2>10월 추천 여행지</h2>
+                            <h4> 우도, 제주도</h4>
+                            <p> 봄,여름,가을,겨울 할 거 없이 놀러 가기 제일 좋은 제주도 ~ 렌터카 + 숙박 까지 다함께 할인 받으러 렛츠기릿~! </p>
+                        </div>
+                        <div class="month_i mi11">
+                            <h2>11월 추천 여행지</h2>
+                            <h4>다낭 , 베트남</h4>
+                            <p>매혹적인 풍경과 독특한 휴양지로 유명한 베트남 골든브리지에 오르면 다낭 시내와 바다가 한 눈에 볼 수있으니 멋진 경관을 보러 가보자 </p>
+                        </div>
+                        <div class="month_i mi12">
+                            <h2>12월 추천 여행지</h2>
+                            <h4>방콕 , 태국</h4>
+                            <p> 집에서 방콕할래? 아니면 방콕갈래! 추운날씨 12월 방콕가자! 짜릿한 모험을 찾는 여행자에게 모든 즐거움을 제공 ~ 수많은 여행자에게 거부할 수 없는 매력을
+                                선사하는 이 곳 방콕으로 떠나보세요~</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="#"><span>이 여행지가 궁금하다면?</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- //section04 -->
+
+    <!-- section05 -->
+    <section class="section5">
+        <h2 class="fit headtitle">노랑풍선의 여행 혜택 & <br class="web_hidden"> 할인 특가 더 알아보자</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 d-lg-block d-md-none d-none box">
+                    <div class="fit_box">
+                        <h5>KB 두근두근 <br> 여행적금</h5>
+                        <p>최대 3만원&<br>4%할인혜택까지!</p>
+                    </div>
+                    <div class="fit_img">
+                        <figure>
+                            <img src="./img/kb_icon.svg" alt="kb">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3  d-lg-block d-md-none d-none box">
+                    <div class="fit_box">
+                        <h5>공항철도 <br> 직통열차 운임할인</h5>
+                        <p>2월 7일부터<br>2월 29일까지</p>
+                    </div>
+                    <div class="fit_img">
+                        <figure>
+                            <img src="./img/gonghang.svg" alt="gong">
+                        </figure>
+                    </div>
+                </div>
+                <div class="col-lg-3  d-lg-block d-md-none d-none box">
+                    <div class="fit_box">
+                        <h5>와이파이 도시락 <br> 10% 할인</h5>
+                        <p>혜택 데이터를<br>저렴하게!</p>
+                    </div>
+                    <div class="fit_img">
+                        <figure>
+                            <img src="./img/wifi.svg" alt="wifi">
+                        </figure>
+                    </div>
+                </div>
+                <div class=" col-lg-3  d-lg-block d-md-none d-none box">
+
+                    <div class="fit_box">
+                        <h5>신한은행 <br> 환율우대쿠폰</h5>
+                        <p>주요통화<br>최대 90% 우대</p>
+                    </div>
+                    <div class="fit_img">
+                        <figure>
+                            <img src="./img/sinhan_icon.svg" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- 모바일 섹션05 -->
+            <div id="mobile_slide">
+                <div class="m_sbox">
+                    <div class="slide_i">
+                        <a href="#">
+                            <div class="m_fit kb">
+                                <h5>KB 두근두근 <br> 여행적금</h5>
+                                <p>최대 3만원&<br>4%할인혜택까지!</p>
+
+                                <figure>
+                                    <img src="./img/kb_icon.svg" alt="kb">
+                                </figure>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="slide_i">
+                        <a href="#">
+                            <div class="m_fit gonghang">
+                                <h5>공항철도 <br> 직통열차 운임할인</h5>
+                                <p>2월 7일부터<br>2월 29일까지</p>
+
+                                <figure>
+                                    <img src="./img/gonghang.svg" alt="gong">
+                                </figure>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="slide_i">
+                        <a href="#">
+                            <div class="m_fit wifi">
+                                <h5>와이파이 도시락 <br> 10% 할인</h5>
+                                <p>혜택 데이터를<br>저렴하게!</p>
+
+                                <figure>
+                                    <img src="./img/wifi.svg" alt="wifi">
+                                </figure>
+                            </div>
+
+                        </a>
+                    </div>
+                    <div class="slide_i">
+                        <a href="#">
+                            <div class="m_fit sinhan">
+                                <h5>신한은행 <br> 환율우대쿠폰</h5>
+                                <p>주요통화<br>최대 90% 우대</p>
+
+                                <figure>
+                                    <img src="./img/sinhan_icon.svg" alt="sinhan">
+                                </figure>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- //모바일 섹션05-->
+        </div>
+    </section>
+    <!-- //section05 -->
+
+    <!-- section06 -->
+    <section class="sns">
+        <h3 class="headtitle">다양한 소식을 <br class="web_hidden"> 노랑풍선 SNS 에서 만나보세요</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/logos_facebook.svg" alt="facebook">
+                        </figure>
+                        <p class="sns_text">페이스북</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/icons_instagram.svg" alt="instagram">
+                        </figure>
+                        <p class="sns_text">인스타그램</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/icons_kakaotalk.svg" alt="kakaotalk">
+                        </figure>
+                        <p class="sns_text">카카오톡</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/youtube-icon.svg" alt="youtube">
+                        </figure>
+                        <p class="sns_text">유튜브</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/write-blog.svg" alt="blog">
+                        </figure>
+                        <p class="sns_text">네이버 블로그</p>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-sm-4 col-4">
+                    <a href="#" class="sns_icon">
+                        <figure>
+                            <img src="./img/naver-memo.svg" alt="post">
+                        </figure>
+                        <p class="sns_text">포스트</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //section06 -->
+
+    <!-- aside -->
+    <aside class="notice">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-sm-12 c_notice">
+
+                    <div class="notice_title">
+                        <div class="call_notice">
+                            <p class="text_call">패키지 여행 상담</p>
+                            <p class="call_number">1544-2288</p>
+                        </div>
+
+                        <div class="call_notice">
+                            <p class="text_call">자유 여행 상담</p>
+                            <p class="call_number">1644-3399</p>
+                        </div>
+                    </div>
+                    <div class="notice_btn">
+                        <a href="#" class="call_btn">지역별 직통상담연결</a>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-sm-12 c_notice">
+                    <div class="call_time">
+                        <p>상담시간 : 평일 오전 9시 ~ 오후 6시<br> ( 토,일요일 및 공휴일 휴무 )</p>
+                        <ul class="time_number">
+                            <li>해외항공권 변경 업무 : 평일 오후 5시까지</li>
+                            <li>투어&티켓, 렌터카 취소/변경/환불 업무 : 평일 오후 5시까지</li>
+                            <li>호텔 취소/변경/환불 업무 : 평일 오후 4시까지</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- //aside -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer_i">
+            <div class="question">
+                <div class="foot_left">
+                    <div class="f_text">
+                        <ul class="term_menu">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </div>
+                    <div class="address">
+                        <p>서울특별시 중구 수표로 31, 노랑풍선빌딩</p>
+                        <div class="address_c">
+                            <a href="#" class="check">사업자정보확인</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footright">
+                    <a href="#" class="ask">
+                        1:1문의하기
+                    </a>
+                    <a href="#" class="ask">
+                        견적문의하기
+                    </a>
+                    <a href="#" class="ask">
+                        기업&단체문의하기
+                    </a>
+                </div>
+            </div>
+
+            <div class="foot_img">
+                <img src="./img/footer.jpg" alt="f_bg">
+            </div>
+
+            <div class="foot_notice">
+                <ul class="f_noti">
+                    <li>노랑풍선은 개별 항공권, 단품 및 일부 여행상품에 대하여 판매중개자로서 통신판매의 당사자가 아닙니다. 따라서 해당 상품의 상품·거래정보 및 거래 등에 대하여 책임을 지지
+                        않습니다.
+                    </li>
+                    <li>항공권 또는 항공권이 포함된 상품의 경우, 표시되는 상품요금은 세금 및 예상 유류할증료가 포함된 가격이며, 유류할증료는 유가 및 환율 등에 따라 변동될 수 있습니다.
+                    </li>
+                </ul>
+                <div class="foot_logo">
+                    <img src="./img/f_logo.png" alt="f_logo">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer -->
+
+    <!-- top -->
+    <div id="top">
+        <div class="t_box">
+            <a href="#" class="bi">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+
+        <div class="t_box">
+            <a href="#">
+                <span>
+                    <i class="fa-regular fa-hand-point-up fa-sm" style="color: #FFC72C;"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+    <!-- //top -->
+
+
+
+
+</body>
+
+</html>
